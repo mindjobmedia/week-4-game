@@ -1,4 +1,76 @@
-h1 {
-	color: #0f3e8d;
+/* General Elements*/
+body{
+	background-image: url("../images/background.png");
+	font-family: 'Roboto', sans-serif;
+}
+div{
+	background-color: white;
+	margin: 10px;
+	width: 25%
+}
+div{
+	border: solid 2px #0f3e8d;
+	padding: 10px;
+}
+h1, h3, span{
+	font-weight: bold;
+	text-align: center;
+}
+h1{
 	font-size: 42px;
+	font-weight: bold;
+	color: #0f3e8d;
+}
+ol{
+	list-style: decimal inside; 
+}
+ul {
+	list-style: disc inside;
+	text-indent: 20px;
+}
+/* Specfic Elements*/
+div.header, div.gems{
+	background-color: #ffffff;
+}
+div.header, div.instructions{
+	width: 50%;
+}
+
+.instructions {
+	line-height: 24px;
+}
+
+/* Classes */
+.numberToMatch, .winsAndLosses{
+	float: left;
+	width: 15%;
+	height: 60px;
+}
+.userTotal{
+	width: 15%;
+	height: 60px;
+}
+.crystals{
+	clear: both;
+	width:33.4%;
+}
+.crystalImage{
+	height: 50px;
+	margin: 10px;
+}
+
+/* IDs */
+
+#green{
+	color: #00aa59;
+}
+#red{
+	color: #ec4b5f;
+}
+#purple{
+	color: #8a15ac;
+}
+
+#aqua{
+	color: #65d1e8;
 }
