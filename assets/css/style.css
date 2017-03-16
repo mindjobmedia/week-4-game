@@ -1,6 +1,6 @@
-/* General Elements*/
+
 body{
-	background-image: url("../images/background.png");
+	background-color: #ffffff;
 	font-family: 'Roboto', sans-serif;
 }
 div{
@@ -29,10 +29,10 @@ ul {
 	text-indent: 20px;
 }
 /* Specfic Elements*/
-div.header, div.gems{
-	background-color: #ffffff;
+div.header, div.crystals {
+	background-color: #5dcfb1;
 }
-div.header, div.instructions{
+div.header, div.instructions {
 	width: 50%;
 }
 
@@ -40,8 +40,7 @@ div.header, div.instructions{
 	line-height: 24px;
 }
 
-/* Classes */
-.numberToMatch, .winsAndLosses{
+.numberToMatch, .winsAndLosses {
 	float: left;
 	width: 15%;
 	height: 60px;
@@ -58,8 +57,6 @@ div.header, div.instructions{
 	height: 50px;
 	margin: 10px;
 }
-
-/* IDs */
 
 #green{
 	color: #00aa59;
